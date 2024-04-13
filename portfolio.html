@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Portfolio/css/portfolio.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="logo"><u><b style="color: #ff004f;">P</b>i<span style="color: #ff004f;">yu</span>sh</u></p>
+                <ul id="sidemenu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, I'm <span></span>Piyush<br>From Haryana(Ambala)</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/Portfolio/image/WhatsApp Image 2024-03-26 at 7.16.54 PM.jpeg" alt="my pic">
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>Hi there! My name is Piyush, and I'm passionate about crafting captivating digital experiences as a frontend developer. While my journey began as a full stack developer((however backend is still learning)),
+                        Passionate and dedicated B.Sc. Computer Science graduate currently pursuing a Master's in Computer Applications (MCA)in chandigarh university (CU) eager to contribute technical skills and academic knowledge to a challenging role in the field of computer science
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiece')">Experiece</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend</span><br>Html, Css, Javascript, DSA in Js, Bootstrap</li>
+                            <li><span>Backend</span><br>Javascript, Express Js, Node Js, React Js</li>
+                            <li><span>Other basic knowledge</span><br>MY SQL, C, C++</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="experiece">
+                        <ul>
+                            <li>I have no experiece ,(I am fresher)</li>
+                            <li><span>2023 - Current</span><br>Currently enrolled in an intensive full-stack developer coaching program on Edureka</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - current</span><br>MCA at CU</li>
+                            <li><span>2020 - 2023</span><br>BSC CS at SD collage (Ambala).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------services------------------- -->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title"> My Competency</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>As a fresh web developer, you're stepping into a dynamic world where creativity meets technology. Your journey involves crafting visually appealing and functional websites, utilizing coding languages like HTML, CSS, and JavaScript, Bootstrap.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Soft Skills</h2>
+                    <p>
+                        <ul>
+                            <li>Good Communication</li>
+                            <li>Team Work</li>
+                            <li>Critical Thinking</li>
+                            <li>Adaptive</li>
+                            <li>Problem solving</li>
+                        </ul>
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Web development</h2>
+                    <p>I'm a dedicated learner currently immersed in a full-stack development course, while simultaneously exploring the real use of AI and new upcoming AI. Through hands-on projects, I'm gaining proficiency in Git and GitHub, ensuring smooth version control.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!-- ---------------portfolio------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img  src="/Portfolio/image/istockphoto-509559314-1024x1024.jpg" alt="">
+                <div class="layers">
+                    <h3>Online Shopping App Clone</h3>
+                    <p>Creating a clone of Amazon's web page was an enriching endeavor that combined my general knowledge with guidance from online resources like YouTube tutorials. As I embarked on this project, I encountered various challenges, from understanding the intricacies of frontend design to implementing backend functionalities</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/Portfolio/image/istockphoto-1428594094-1024x1024.jpg" alt="">
+                <div class="layers">
+                    <h3>Cafe restaurant web Design</h3>
+                    <p>Crafting a cafe restaurant webpage entirely through my own ingenuity was a fulfilling journey that allowed me to exercise both my technical prowess and creative flair. Beginning with a blank canvas, I conceptualized the design elements, drawing inspiration from the ambiance and aesthetics of my favorite cafes.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/Portfolio/image/istockphoto-951331028-1024x1024.jpg" alt="">
+                <div class="layers">
+                    <h3>Small Js Project</h3>
+                    <p>Embarking on small JavaScript projects, ranging from classic games like tic-tac-toe and rock-paper-scissors to practical utilities like currency converters and word/character counters, was an enriching journey that blended online guidance with my own problem-solving skills. Leveraging YouTube tutorials and drawing from my personal knowledge</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ----------Contact details ------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i></i> priyush062022@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 7082852764</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="/Portfolio/document/Piyush resume (1) (1).pdf" download class="btn btn2">Download My CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit " class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Piyush made with <i class="fa-solid fa-heart"></i> by Easy tutorial</p>
+    </div>
+</div>
+<script>
+    let tablinks = document.getElementsByClassName("tab-links");
+    let tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    let sidemenu  = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwvMjovSKVl6yWXsOZe_848tgl90kGdWv6AnzV5uGFwh8U52ZDP0aYrrBB91Vr8tMGI4w/exec'
+const form = document.forms['submit-to-google-sheet'];
+const msg = document.getElementById("msg");
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        msg.innerHTML = "Submit successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000);
+        form.reset();
+    })
+    .catch(error => console.error('Error!', error.message))
+})
+</script>
+</body>
+</html>
