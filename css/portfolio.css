@@ -189,7 +189,7 @@ nav ul li a:hover::after{
 .work img{
     width:  95%;
     margin: 3%;
-    height: 29vh;
+    height: 95%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
