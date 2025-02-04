@@ -184,6 +184,7 @@ nav ul li a:hover::after{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    height: 30vh;
 }
 .work img{
     width:  95%;
